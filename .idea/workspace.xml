@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dd3788c-adec-4ff5-b4c0-c1a71f621e25" name="Changes" comment="Java Anagram">
-      <change afterPath="$PROJECT_DIR$/src/SingletonPattern/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingletonPattern/SingletonTest.java" afterDir="false" />
+    <list default="true" id="8dd3788c-adec-4ff5-b4c0-c1a71f621e25" name="Changes" comment="Factory">
+      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/FactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +59,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="FactoryPattern" />
       <recent name="SingletonPattern" />
       <recent name="Anagram" />
       <recent name="StringReverse" />
       <recent name="SubstringComparisons" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SingletonTest.getSingleInstance">
+  <component name="RunManager" selected="JUnit.FactoryTest.GetFood_GivenCake_ReturnsCake">
     <configuration name="AnagramTest.isAnagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
@@ -77,6 +78,22 @@
       <option name="PACKAGE_NAME" value="Anagram" />
       <option name="MAIN_CLASS_NAME" value="Anagram.AnagramTest" />
       <option name="METHOD_NAME" value="isAnagram(java.lang.String,java.lang.String,boolean)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryTest.GetFood_GivenCake_ReturnsCake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FactoryPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FactoryPattern" />
+      <option name="MAIN_CLASS_NAME" value="FactoryPattern.FactoryTest" />
+      <option name="METHOD_NAME" value="GetFood_GivenCake_ReturnsCake" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,31 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubstringComparisonTest.getSmallestAndLargest.[2] welcometojava, 4, elco, welc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SubstringComparisons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SubstringComparisons" />
-      <option name="MAIN_CLASS_NAME" value="SubstringComparisons.SubstringComparisonTest" />
-      <option name="TEST_OBJECT" value="uniqueId" />
-      <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:SubstringComparisons.SubstringComparisonTest]/[test-template:getSmallestAndLargest(java.lang.String, int, java.lang.String, java.lang.String)]/[test-template-invocation:#2]" />
-      </uniqueIds>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FactoryTest.GetFood_GivenCake_ReturnsCake" />
         <item itemvalue="JUnit.SingletonTest.getSingleInstance" />
         <item itemvalue="JUnit.AnagramTest.isAnagram" />
         <item itemvalue="JUnit.StringReverseTest.main" />
         <item itemvalue="JUnit.SubstringComparisonTest.getSmallestAndLargest" />
-        <item itemvalue="JUnit.SubstringComparisonTest.getSmallestAndLargest.[2] welcometojava, 4, elco, welc" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683989271120</updated>
-      <workItem from="1683989272133" duration="6941000" />
+      <workItem from="1683989272133" duration="8044000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1683990198642</created>
@@ -203,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684016309789</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Singleton">
+      <created>1684016390433</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684016390433</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +232,8 @@
     <MESSAGE value="HUnits" />
     <MESSAGE value="Java String Reverse" />
     <MESSAGE value="Java Anagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Anagram" />
+    <MESSAGE value="Singleton" />
+    <MESSAGE value="Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory" />
   </component>
 </project>
