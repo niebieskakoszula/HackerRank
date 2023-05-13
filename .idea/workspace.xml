@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dd3788c-adec-4ff5-b4c0-c1a71f621e25" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/SubstringComparisons/SubstringComparison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubstringComparisons/SubstringComparisonTest.java" afterDir="false" />
+    <list default="true" id="8dd3788c-adec-4ff5-b4c0-c1a71f621e25" name="Changes" comment="HUnits">
+      <change afterPath="$PROJECT_DIR$/src/StringReverse/StringReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringReverse/StringReverseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Pk7Xy2Caz8LKC0COkr7u6D4vH3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -57,10 +59,27 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="StringReverse" />
       <recent name="SubstringComparisons" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SubstringComparisonTest.getSmallestAndLargest">
+  <component name="RunManager" selected="JUnit.StringReverseTest.main">
+    <configuration name="StringReverseTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringReverse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StringReverse" />
+      <option name="MAIN_CLASS_NAME" value="StringReverse.StringReverseTest" />
+      <option name="METHOD_NAME" value="main(java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SubstringComparisonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
@@ -130,6 +149,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringReverseTest.main" />
         <item itemvalue="JUnit.SubstringComparisonTest.getSmallestAndLargest" />
         <item itemvalue="JUnit.SubstringComparisonTest.getSmallestAndLargest.[2] welcometojava, 4, elco, welc" />
         <item itemvalue="JUnit.SubstringComparisonTest" />
@@ -145,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683989271120</updated>
-      <workItem from="1683989272133" duration="3084000" />
+      <workItem from="1683989272133" duration="5040000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1683990198642</created>
@@ -154,14 +174,41 @@
       <option name="project" value="LOCAL" />
       <updated>1683990198642</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Substring Comparisons">
+      <created>1683992869241</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683992869241</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HUnits">
+      <created>1683992885076</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683992885076</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Substring Comparisons" />
+    <MESSAGE value="HUnits" />
+    <option name="LAST_COMMIT_MESSAGE" value="HUnits" />
   </component>
 </project>
