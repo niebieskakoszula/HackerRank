@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dd3788c-adec-4ff5-b4c0-c1a71f621e25" name="Changes" comment="InstanceOFTutorial">
-      <change afterPath="$PROJECT_DIR$/src/MethodOverriding/MethodOverriding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MethodOverriding2/MethodOverriding2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8dd3788c-adec-4ff5-b4c0-c1a71f621e25" name="Changes" comment="Method Overriding">
+      <change afterPath="$PROJECT_DIR$/src/Interface/Interface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +68,13 @@
       <recent name="SingletonPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodOverriding">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Iterator.Main" />
+  <component name="RunManager" selected="Application.Interface">
+    <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interface.Interface" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Iterator.*" />
+          <option name="PATTERN" value="Interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Interface" />
         <item itemvalue="Application.MethodOverriding" />
         <item itemvalue="Application.MethodOverriding2" />
         <item itemvalue="JUnit.InstanceOFTutorialTest.count" />
         <item itemvalue="JUnit.MainTest.main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683989271120</updated>
       <workItem from="1683989272133" duration="13115000" />
-      <workItem from="1684062332558" duration="242000" />
+      <workItem from="1684062332558" duration="491000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1683990198642</created>
@@ -240,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684023128582</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Method Overriding">
+      <created>1684062723177</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684062723177</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +274,7 @@
     <MESSAGE value="try catch" />
     <MESSAGE value="Iterator" />
     <MESSAGE value="InstanceOFTutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="InstanceOFTutorial" />
+    <MESSAGE value="Method Overriding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method Overriding" />
   </component>
 </project>
